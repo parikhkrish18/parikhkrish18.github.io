@@ -1,0 +1,33 @@
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+footer {
+	text-align: left;
+}
+ul {
+	list-style-position:outside;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img.photo {
+	max-width: 30%;
+	max-height: 34%;
+}
+img.label {
+	max-width: 4%;
+	max-width: 4%;
+}

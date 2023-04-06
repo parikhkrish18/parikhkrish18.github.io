@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap);
+
+html {
+font-family: 'Roboto', serif;
+background-color: black;
+color: white;
+}
+.wrapper {
+display: grid;
+height: 100%;
+grid-template-rows: 10% 100% 10%;
+grid-template-columns: 100%;
+gap: 1%;
+}
+.toolbar {
+    color:white;
+    display: flex;
+    font-family: 'Merriweather', sans-serif;
+    grid-area: 1 / 1 / 1 / 1;
+    border-bottom: 1px solid red;
+    padding: 0.5%;
+    position:fixed;
+    background-color: black;
+    top:0;
+    width:100%;
+    z-index:100;
+}
+.main {
+    grid-area: 2 / 1 / 2 / 1;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+footer {
+    grid-area: 3 / 1 / 3 / 1;
+    text-align: center;
+    font-size: smaller;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    font-weight:bolder;
+    text-decoration: underline;
+    color: red;
+}
+.balancebox {
+    flex: 0.5;
+}
+.main-links {
+    display: flex;
+    flex: 1.5;
+    font-size: small;
+}
+.home, .about, .professional, .skills, .blog, .contact {
+    text-align: center;
+    flex: 1;
+}
+.extra {
+    flex: 1;
+}
+.login {
+    flex: 1;
+    text-align: center;
+    font-size: small;
+    color: red;
+}
+a.login_button {
+    color: red;
+}
+.title {
+    font-size:x-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+/* End of General CSS */
+
+button {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.blogposts {
+    text-align: center;
+  }
